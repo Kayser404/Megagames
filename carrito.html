@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras - Mega Games</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/carrito.css">
+ 
+</head>
+<body>
+    <header class="text-center py-3 bg-celeste text-light">
+        <div class="container">
+            <h1>Carrito de Compras</h1>
+        </div>
+    </header>
+
+    <div class="container my-5">
+        <div class="carrito-header">
+            <h2>Productos en el Carrito</h2>
+        </div>
+        <ul id="carrito" class="list-group mt-4">
+            <!-- Los productos seleccionados se agregarán aquí -->
+            <li class="carrito-item list-group-item d-flex align-items-center">
+                <img src="assets/img/producto1.jpg" alt="Producto 1">
+                <div class="item-details">
+                    <h5>Nombre del Producto 1</h5>
+                    <p>Descripción breve del producto.</p>
+                </div>
+                <div class="item-price">$49.99</div>
+                <button class="btn btn-remove">Eliminar</button>
+            </li>
+            <li class="carrito-item list-group-item d-flex align-items-center">
+                <img src="assets/img/producto2.jpg" alt="Producto 2">
+                <div class="item-details">
+                    <h5>Nombre del Producto 2</h5>
+                    <p>Descripción breve del producto.</p>
+                </div>
+                <div class="item-price">$39.99</div>
+                <button class="btn btn-remove">Eliminar</button>
+            </li>
+            <!-- Más productos -->
+        </ul>
+        <div class="text-end mt-4">
+            <button class="btn btn-success btn-lg">Proceder al Pago</button>
+        </div>
+    </div>
+
+    <footer class="text-center py-3 bg-celeste text-light">
+        <div class="container">
+            <p>&copy; 2024 Mega Games - Todos los derechos reservados</p>
+            <p>Contacto: info@megagames.com</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/carrito.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybBogGz8zACc27f1F1Vp6N/+c6aEymuHf24BxHzSPxFfY2w9p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-QHHF6rW1Kx1i+OdU8yT6lnLVDkP0fMb5Ye4mLfQwAcU7nWy4R/Mf7ha/k6pOCXO" crossorigin="anonymous"></script>
+</body>
+</html>

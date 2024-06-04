@@ -1,0 +1,68 @@
+body {
+    background-color: #f0f8ff; /* Color de fondo para el cuerpo */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+}
+
+.header-content {
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #007bff;
+
+}
+.footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.bg-celeste {
+    background-color: #007bff;
+}
+.carrito-header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.carrito-item {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+.carrito-item img {
+    max-width: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.carrito-item .item-details {
+    flex-grow: 1;
+}
+.carrito-item .item-price {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.carrito-item .btn-remove {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+

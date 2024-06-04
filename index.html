@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega Games</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8WVD/ismYTF4hNIPJvP/Zjygglo16VFvRkV/rR+Vc4jQkC+hVqc2pM8Odewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-QpUGZv6kmXF6gxjEnImuGrJXVbNuzT9qBBavbLwCsOGabYFZoF0t0e5eqruptLy" crossorigin="anonymous"></script>
+    <script src="assets/js/app.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
+    <script src="assets/js/carrito.js" defer></script>
+</head>
+<body class="body">
+    <header class="text-center py-3 bg-celeste text-light">
+        <nav class="navbar navbar-expand-lg navbar-bg-celeste">
+            <div class="container-fluid">
+                <div class="navbar-nav ms-auto">
+                    <a href="carrito.html" class="nav-link" id="carritoIcon">
+                        <i class="fa fa-shopping-cart"></i>
+                        <span id="carrito-count" class="badge bg-danger">0</span>
+                    </a>
+                </div>
+                
+                <a class="navbar-brand text-light" href="index.html">Mega Games</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="inicio2.html">Crear cuenta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
+    
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Nuestros Productos</h2>
+        <div class="row gy-4">
+            <!-- Tarjetas de Producto -->
+            <!-- Minecraft -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <a href="minecraft.html">
+                        <img src="./assets/img/mine.webp" class="card-img-top" alt="Minecraft Edición Java">
+                    </a>
+                    <div class="card-body text-center">
+                        <h3 class="producto" data-nombre="Minecraft Edición Java" data-precio="30" data-stock="20">Minecraft Edición Java</h3>
+                        <p class="card-text">Precio: $26.95</p>
+                        <p class="card-text">Stock: 20 unidades</p>
+                        <button class="agregar btn btn-success mt-3">Añadir al Carrito</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Ark Survival Evolved -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <a href="ark.html">
+                        <img src="./assets/img/ark.avif" class="card-img-top" alt="Ark Survival Evolved">
+                    </a>
+                    <div class="card-body text-center">
+                        <h3 class="producto" data-nombre="Ark Survival Evolved" data-precio="50" data-stock="15">Ark Survival Evolved</h3>
+                        <p class="card-text">Precio: $29.99</p>
+                        <p class="card-text">Stock: 15 unidades</p>
+                        <button class="agregar btn btn-success mt-3">Añadir al Carrito</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Grand Theft Auto V -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <a href="gtaV.html">
+                        <img src="./assets/img/gta.webp" class="card-img-top" alt="Grand Theft Auto V">
+                    </a>
+                    <div class="card-body text-center">
+                        <h3 class="producto" data-nombre="Grand Theft Auto V" data-precio="50" data-stock="15">Grand Theft Auto V</h3>
+                        <p class="card-text">Precio: $39.99</p>
+                        <p class="card-text">Stock: 15 unidades</p>
+                        <button class="agregar btn btn-success mt-3">Añadir al Carrito</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Resident Evil 4 -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <a href="ResidenEvil4.html">
+                        <img src="./assets/img/residen_evil_4.jpg" class="card-img-top" alt="Resident Evil 4">
+                    </a>
+                    <div class="card-body text-center">
+                        <h3 class="producto" data-nombre="Resident Evil 4" data-precio="50" data-stock="15">Resident Evil 4</h3>
+                        <p class="card-text">Precio: $39.99</p>
+                        <p class="card-text">Stock: 15 unidades</p>
+                        <button class="agregar btn btn-success mt-3">Añadir al Carrito</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Call of Duty Black Ops 2 -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <a href="bo2.html">
+                        <img src="./assets/img/cod2.jpg" class="card-img-top" alt="Call of Duty Black Ops 2">
+                    </a>
+                    <div class="card-body text-center">
+                        <h3 class="producto" data-nombre="Call of Duty Black Ops 2" data-precio="40" data-stock="10">Call of Duty Black Ops 2</h3>
+                        <p class="card-text">Precio: $49.99</p>
+                        <p class="card-text">Stock: 10 unidades</p>
+                        <button class="agregar btn btn-success mt-3">Añadir al Carrito</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Batman Lego -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <a href="batmanlego.html">
+                        <img src="./assets/img/batman_lego.jpg" class="card-img-top" alt="Batman Lego">
+                    </a>
+                    <div class="card-body text-center">
+                        <h3 class="producto" data-nombre="Batman Lego" data-precio="40" data-stock="10">Batman Lego</h3>
+                        <p class="card-text">Precio: $19.99</p>
+                        <p class="card-text">Stock: 10 unidades</p>
+                        <button class="agregar btn btn-success mt-3">Añadir al Carrito</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Elden Ring -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <a href="elden.html">
+                        <img src="./assets/img/elden.webp" class="card-img-top" alt="Elden Ring">
+                    </a>
+                    <div class="card-body text-center">
+                        <h3 class="producto" data-nombre="Elden Ring" data-precio="40" data-stock="10">Elden Ring</h3>
+                        <p class="card-text">Precio: $59.99</p>
+                        <p class="card-text">Stock: 10 unidades</p>
+                        <button class="agregar btn btn-success mt-3">Añadir al Carrito</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Need For Speed -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <a href="NeedFordSpeed.html">
+                        <img src="./assets/img/need_for_speed__2015_-3124268.jpg" class="card-img-top" alt="Need For Speed">
+                    </a>
+                    <div class="card-body text-center">
+                        <h3 class="producto" data-nombre="Need For Speed" data-precio="40" data-stock="10">Need For Speed</h3>
+                        <p class="card-text">Precio: $39.99</p>
+                        <p class="card-text">Stock: 10 unidades</p>
+                        <button class="agregar btn btn-success mt-3">Añadir al Carrito</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Phasmophobia -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <a href="phasmofobia.html">
+                        <img src="./assets/img/phasmophobia.jpg" class="card-img-top" alt="Phasmophobia">
+                    </a>
+                    <div class="card-body text-center">
+                        <h3 class="producto" data-nombre="Phasmophobia" data-precio="40" data-stock="10">Phasmophobia</h3>
+                        <p class="card-text">Precio:  $14.99</p>
+                        <p class="card-text">Stock: 10 unidades</p>
+                        <button class="agregar btn btn-success mt-3">Añadir al Carrito</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Fall Guys -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <a href="fullguys.html">
+                        <img src="./assets/img/Fall_Guys.webp" class="card-img-top" alt="Fall Guys">
+                    </a>
+                    <div class="card-body text-center">
+                        <h3 class="producto" data-nombre="Fall Guys" data-precio="40" data-stock="10">Fall Guys</h3>
+                        <p class="card-text">Precio: $40</p>
+                        <p class="card-text">Stock: 10 unidades</p>
+                        <button class="agregar btn btn-success mt-3">Añadir al Carrito</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <a href="redemption2.html">
+                        <img src="./assets/img/red_dead_3__nombre_temporal_-4030936.jpg" class="card-img-top" alt="Fall Guys">
+                    </a>
+                    <div class="card-body text-center">
+                        <h3 class="producto" data-nombre="Fall Guys" data-precio="40" data-stock="10">Fall Guys</h3>
+                        <p class="card-text">Precio: $59.99</p>
+                        <p class="card-text">Stock: 20 unidades</p>
+                        <button class="agregar btn btn-success mt-3">Añadir al Carrito</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Spider-Man: Miles Morales -->
+            <div class="col-md-4">
+                <div class="card product-card h-100">
+                    <a href="spiderman2.html">
+                        <img src="./assets/img/spiderman.jpeg" class="card-img-top" alt="Spider-Man: Miles Morales">
+                    </a>
+                    <div class="card-body text-center">
+                        <h3 class="producto" data-nombre="Spider-Man: Miles Morales" data-precio="40" data-stock="10">Spider-Man: Miles Morales</h3>
+                        <p class="card-text">Precio: $40</p>
+                        <p class="card-text">Stock: 10 unidades</p>
+                        <button class="agregar btn btn-success mt-3">Añadir al Carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="welcomeModal" tabindex="-1" aria-labelledby="welcomeModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="welcomeModalLabel">¡Bienvenido a Mega Games!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>En Mega Games nos dedicamos a ofrecerte la mejor experiencia en videojuegos. Con una amplia selección de títulos para todas las plataformas, desde los clásicos hasta los últimos lanzamientos, estamos aquí para satisfacer tus necesidades de entretenimiento digital.</p>
+                    <p>Nuestro equipo está comprometido a brindarte un servicio excepcional, ayudándote a encontrar los juegos que más te gustan y proporcionándote información actualizada sobre las últimas tendencias en la industria del videojuego.</p>
+                    <p>¡Explora nuestra tienda en línea y descubre una nueva forma de disfrutar de tus juegos favoritos!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center py-3 bg-celeste text-light">
+        <div>
+            <p>&copy; 2024 Mega Games - Todos los derechos reservados</p>
+            <p>Contacto: info@megagames.com</p>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft - Mega Games</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./assets/js/carrito.js" defer></script>
+    <script src="./assets/js/script.js" defer></script>
+</head>
+<body class="body">
+    <header class="text-center py-3 bg-celeste text-light">
+        <nav class="navbar navbar-expand-lg navbar-bg-celeste">
+            <div class="container-fluid">
+                <div class="navbar-nav ms-auto">
+                    <a href="carrito.html" class="nav-link" id="carritoIcon">
+                        <i class="fa fa-shopping-cart"></i>
+                        <span id="carrito-count" class="badge bg-danger">0</span>
+                    </a>
+                </div>
+                
+                <a class="navbar-brand text-light" href="index.html">Mega Games</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <div class="row">
+            <!-- Imagen del producto -->
+            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                <img src="assets/img/ark.avif" class="img-fluid" alt="Minecraft" style="max-width: 100%; height: auto;">
+            </div>
+    
+                <!-- Especificaciones del producto -->
+    <div class="col-md-8">
+        <div class="card product-card h-100">
+            <div class="card-body">
+                <h3 id="Ark" class="card-title">Ark: Survival Evolved</h3>
+                <p id="gamePrice" class="card-text">Precio: $29.99</p>
+                <p id="gameStock" class="card-text">Stock: 10 unidades</p>
+                <h4>Especificaciones:</h4>
+                <ul id="gameSpecs">
+                    <li>Género: Aventura</li>
+                    <li>Plataforma: PC</li>
+                    <li>Desarrollador: Studio Wildcard</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-md-8">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/img/ark.2.avif" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/ark3.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/ark4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+    <!-- Cuadro de reseñas -->
+    <div class="col-md-4">
+        <div class="reviews-box">
+            <h4>Reseñas</h4>
+            <p>"¡Ark Survival Evolved es una experiencia de supervivencia única! La sensación de peligro constante y la emoción de domar dinosaurios es increíble. - DinoFanatic"</p>
+            <p>"El nivel de detalle y realismo en el mundo de Ark es impresionante. Pasé horas explorando y construyendo mi base. - SurvivalExpert"</p>
+        </div>
+        <!-- Segundo cuadro de reseñas -->
+        <div class="reviews-box">
+            <h4>Informacion</h4>
+            <p>"Ark Survival Evolved es un juego de supervivencia y aventura donde los jugadores deben sobrevivir en una isla llena de dinosaurios y otras criaturas prehistóricas. Los jugadores pueden recolectar recursos, construir refugios y armas, y domar dinosaurios para ayudarlos en su supervivencia. El juego ofrece modos tanto en solitario como multijugador, permitiendo a los jugadores unirse para explorar y conquistar juntos. La gestión de recursos y la estrategia son clave para prosperar en este entorno hostil."</p>
+        </div>
+    </div>
+</div>
+<!-- Botón para volver al inicio -->
+<div class="row mt-4">
+    <div class="col-12 text-center">
+        <button class="btn btn-back" onclick="window.location.href='index.html'">Volver al Inicio</button>
+    </div>
+</div>
+</div>
+
+<footer class="text-center py-3 bg-celeste text-light">
+<div>
+    <p>&copy; 2024 Mega Games - Todos los derechos reservados</p>
+    <p>Contacto: info@megagames.com</p>
+</div>
+</footer>
+
+<!-- Bootstrap JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/search.js" defer></script> <!-- Incluyendo el script de búsqueda -->
+</body>
+</html>
+
